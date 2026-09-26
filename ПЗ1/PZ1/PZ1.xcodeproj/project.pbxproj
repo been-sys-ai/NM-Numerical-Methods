@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F4E58B833060D9EC0071DAC6 /* CopyFiles */ = {
+		F4C787F13066A542000D9F19 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolder = None;
@@ -18,19 +18,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F4E58B853060D9EC0071DAC6 /* CHM_LAB1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CHM_LAB1; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C787F33066A542000D9F19 /* PZ1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PZ1; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F4E58B873060D9EC0071DAC6 /* CHM_LAB1 */ = {
+		F4C787F53066A542000D9F19 /* PZ1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CHM_LAB1;
+			path = PZ1;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4E58B823060D9EC0071DAC6 /* Frameworks */ = {
+		F4C787F03066A542000D9F19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -38,18 +38,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4E58B7C3060D9EC0071DAC6 = {
+		F4C787EA3066A542000D9F19 = {
 			isa = PBXGroup;
 			children = (
-				F4E58B873060D9EC0071DAC6 /* CHM_LAB1 */,
-				F4E58B863060D9EC0071DAC6 /* Products */,
+				F4C787F53066A542000D9F19 /* PZ1 */,
+				F4C787F43066A542000D9F19 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F4E58B863060D9EC0071DAC6 /* Products */ = {
+		F4C787F43066A542000D9F19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4E58B853060D9EC0071DAC6 /* CHM_LAB1 */,
+				F4C787F33066A542000D9F19 /* PZ1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,59 +57,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4E58B843060D9EC0071DAC6 /* CHM_LAB1 */ = {
+		F4C787F23066A542000D9F19 /* PZ1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4E58B8C3060D9EC0071DAC6 /* Build configuration list for PBXNativeTarget "CHM_LAB1" */;
+			buildConfigurationList = F4C787FA3066A542000D9F19 /* Build configuration list for PBXNativeTarget "PZ1" */;
 			buildPhases = (
-				F4E58B813060D9EC0071DAC6 /* Sources */,
-				F4E58B823060D9EC0071DAC6 /* Frameworks */,
-				F4E58B833060D9EC0071DAC6 /* CopyFiles */,
+				F4C787EF3066A542000D9F19 /* Sources */,
+				F4C787F03066A542000D9F19 /* Frameworks */,
+				F4C787F13066A542000D9F19 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				F4E58B873060D9EC0071DAC6 /* CHM_LAB1 */,
+				F4C787F53066A542000D9F19 /* PZ1 */,
 			);
-			name = CHM_LAB1;
-			productName = CHM_LAB1;
-			productReference = F4E58B853060D9EC0071DAC6 /* CHM_LAB1 */;
+			name = PZ1;
+			productName = PZ1;
+			productReference = F4C787F33066A542000D9F19 /* PZ1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4E58B7D3060D9EC0071DAC6 /* Project object */ = {
+		F4C787EB3066A542000D9F19 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					F4E58B843060D9EC0071DAC6 = {
+					F4C787F23066A542000D9F19 = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = F4E58B803060D9EC0071DAC6 /* Build configuration list for PBXProject "CHM_LAB1" */;
+			buildConfigurationList = F4C787EE3066A542000D9F19 /* Build configuration list for PBXProject "PZ1" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F4E58B7C3060D9EC0071DAC6;
+			mainGroup = F4C787EA3066A542000D9F19;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F4E58B863060D9EC0071DAC6 /* Products */;
+			productRefGroup = F4C787F43066A542000D9F19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4E58B843060D9EC0071DAC6 /* CHM_LAB1 */,
+				F4C787F23066A542000D9F19 /* PZ1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4E58B813060D9EC0071DAC6 /* Sources */ = {
+		F4C787EF3066A542000D9F19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -117,7 +117,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F4E58B8A3060D9EC0071DAC6 /* Debug configuration for PBXProject "CHM_LAB1" */ = {
+		F4C787F83066A542000D9F19 /* Debug configuration for PBXProject "PZ1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		F4E58B8B3060D9EC0071DAC6 /* Release configuration for PBXProject "CHM_LAB1" */ = {
+		F4C787F93066A542000D9F19 /* Release configuration for PBXProject "PZ1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Release;
 		};
-		F4E58B8D3060D9EC0071DAC6 /* Debug configuration for PBXNativeTarget "CHM_LAB1" */ = {
+		F4C787FB3066A542000D9F19 /* Debug configuration for PBXNativeTarget "PZ1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -240,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		F4E58B8E3060D9EC0071DAC6 /* Release configuration for PBXNativeTarget "CHM_LAB1" */ = {
+		F4C787FC3066A542000D9F19 /* Release configuration for PBXNativeTarget "PZ1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,24 +251,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4E58B803060D9EC0071DAC6 /* Build configuration list for PBXProject "CHM_LAB1" */ = {
+		F4C787EE3066A542000D9F19 /* Build configuration list for PBXProject "PZ1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4E58B8A3060D9EC0071DAC6 /* Debug configuration for PBXProject "CHM_LAB1" */,
-				F4E58B8B3060D9EC0071DAC6 /* Release configuration for PBXProject "CHM_LAB1" */,
+				F4C787F83066A542000D9F19 /* Debug configuration for PBXProject "PZ1" */,
+				F4C787F93066A542000D9F19 /* Release configuration for PBXProject "PZ1" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		F4E58B8C3060D9EC0071DAC6 /* Build configuration list for PBXNativeTarget "CHM_LAB1" */ = {
+		F4C787FA3066A542000D9F19 /* Build configuration list for PBXNativeTarget "PZ1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4E58B8D3060D9EC0071DAC6 /* Debug configuration for PBXNativeTarget "CHM_LAB1" */,
-				F4E58B8E3060D9EC0071DAC6 /* Release configuration for PBXNativeTarget "CHM_LAB1" */,
+				F4C787FB3066A542000D9F19 /* Debug configuration for PBXNativeTarget "PZ1" */,
+				F4C787FC3066A542000D9F19 /* Release configuration for PBXNativeTarget "PZ1" */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4E58B7D3060D9EC0071DAC6 /* Project object */;
+	rootObject = F4C787EB3066A542000D9F19 /* Project object */;
 	validationLevel = 1;
 }
