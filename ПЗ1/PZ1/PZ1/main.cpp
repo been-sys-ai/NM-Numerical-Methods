@@ -468,7 +468,7 @@ int main(int argc, const char *argv[]) {
 
     vector<double>err_spl = spl.err_of_aprx();
 
-    cout << "Точность сплайн-апроксимации функции sin(x) (sin(x),S;cos(x),S';-sin(x),S''): " << err_spl[0] << " " <<
+    cout << "Точность сплайн-апроксимации функции sin(x) (cos(x),S';-sin(x),S''): " <<
         err_spl[1] << " " << err_spl[2] << "\n";
 
 
