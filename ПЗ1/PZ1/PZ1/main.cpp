@@ -84,7 +84,8 @@ class Cubic_Int_Spl {
         vector<double> a, b, c, d;
 
     public:
-
+    
+        // Функция для обновления сплайна
         void update_spl(const vector<double> &x_upd, const vector<double> &f_d){
 
             x.clear();
@@ -157,7 +158,8 @@ class Cubic_Int_Spl {
             d[n - 1] = -c[n - 1] / h_c / 3.0;
 
         }
-
+        
+        // Функция для вычисления сплайна и его производных в точке
         vector<double> get_spl_and_two_dev(const double &x_in){
 
             // определяем число отрезков разбиения
@@ -222,6 +224,7 @@ class Cubic_Int_Spl {
             return res_err;
         }
 
+        // Функция генерации точек равномерной сетки несовпадающих с узлами
         vector<double>genRdGrd_reg(){
 
             random_device rd;
